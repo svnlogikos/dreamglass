@@ -1,0 +1,2 @@
+user: @manager
+pass: @manager2017
