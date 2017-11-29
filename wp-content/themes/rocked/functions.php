@@ -185,6 +185,8 @@ function rocked_scripts() {
 
 	wp_enqueue_script( 'rocked-main', get_template_directory_uri() . '/js/main.min.js', array('jquery'),'', true );
 
+	wp_enqueue_style( 'logikos-custom', get_template_directory_uri() . '/css/logikos.css' );
+
 }
 add_action( 'wp_enqueue_scripts', 'rocked_scripts' );
 

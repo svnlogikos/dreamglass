@@ -1,0 +1,100 @@
+/*FUENTES*/
+@font-face {
+font-family: Brooklyn-Spanish-Light;
+src: url(../fonts/dreamglass/Brooklyn-Spanish-Light.ttf);
+}
+
+@font-face {
+font-family: Brooklyn-Spanish-Regular;
+src: url(../fonts/dreamglass/Brooklyn-Spanish-Regular.ttf);
+}
+
+@font-face {
+font-family: Montserrat-Black;
+src: url(../fonts/dreamglass/Montserrat-Black.otf);
+}
+
+@font-face {
+font-family: Montserrat-Bold;
+src: url(../fonts/dreamglass/Montserrat-Bold.otf);
+}
+
+@font-face {
+font-family: Montserrat-ExtraBold;
+src: url(../fonts/dreamglass/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+font-family: Montserrat-Hairline;
+src: url(../fonts/dreamglass/Montserrat-Hairline.otf);
+}
+
+@font-face {
+font-family: Montserrat-Light;
+src: url(../fonts/dreamglass/Montserrat-Light.otf);
+}
+
+@font-face {
+font-family: Montserrat-Medium;
+src: url(../fonts/dreamglass/Montserrat-Medium.otf);
+}
+
+@font-face {
+font-family: Montserrat-Regular;
+src: url(../fonts/dreamglass/Montserrat-Regular.otf);
+}
+
+@font-face {
+font-family: Montserrat-SemiBold;
+src: url(../fonts/dreamglass/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+font-family: Montserrat-Thin;
+src: url(../fonts/dreamglass/Montserrat-Thin.otf);
+}
+
+@font-face {
+font-family: Montserrat-UltraLight;
+src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
+}
+
+
+
+/*CUSTOM CSS LOGIKOS*/
+.site-footer{
+	background-color: #111111 !important;
+	}
+.prefooter{
+	width: 100%;
+	height: 350px;
+	background: rgba(85,85,85,1);
+	background: -moz-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(45,45,44,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(85,85,85,1)), color-stop(100%, rgba(45,45,44,1)));
+	background: -webkit-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(45,45,44,1) 100%);
+	background: -o-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(45,45,44,1) 100%);
+	background: -ms-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(45,45,44,1) 100%);
+	background: linear-gradient(to bottom, rgba(85,85,85,1) 0%, rgba(45,45,44,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#2d2d2c', GradientType=0 );
+}
+.site-info{
+	text-align: center;
+}
+.prefooter-content{
+	margin-top: 50px;
+}
+.container-img{
+	padding: 20px 35px 20px 35px;
+	background-color: #5d5d5d;
+	text-align: center;
+}
+.footer-ul{
+	color: #d8d8d8;
+	list-style-type: none;
+	font-family: Montserrat-Light;
+	font-size: 1.2rem;
+}
+.footer-ul-title{
+	font-weight: bold;
+	color: #f6f6f6;
+}
