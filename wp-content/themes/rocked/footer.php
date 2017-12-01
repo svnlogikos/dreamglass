@@ -18,8 +18,8 @@
 	<div class="prefooter">
 		<div class="container">
 			<div class="row prefooter-content">
-				<div class="col-sm-12 col-md-8">
-					<div class="col-sm-12 col-md-3">
+				<div class="col-md-8">
+					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">HOME</li>
 							<li>Blog & News</li>
@@ -35,7 +35,7 @@
 							<li>Glass Types</li>
 						</ul>
 					</div>
-					<div class="col-sm-12 col-md-3">
+					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">PRODUCTS</li>
 							<li>Original</li>
@@ -47,7 +47,7 @@
 							<li>DSAF</li>
 						</ul>
 					</div>
-					<div class="col-sm-12 col-md-3">
+					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">SECTORS</li>
 							<li>Commercial</li>
@@ -60,7 +60,7 @@
 							<li>Entertaiment</li>
 						</ul>
 					</div>
-					<div class="col-sm-12 col-md-3">
+					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">ABOUT US</li>
 							<li>Lab Technology</li>
@@ -74,7 +74,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-4">
+				<div class="col-md-4">
 					<div class="container-img">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/image-footer.png" alt="">
 					</div>
@@ -84,8 +84,52 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
+			<div class="row divider-footer">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/divider.png" alt="">
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+		
+				<div class="col-md-4">
+					<span class="footertitle">CONNECT WITH DREAMGLASS:</span>
+					<div class="container-social-icons">
+						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/facebook.png" alt="Facebook">
+						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/googleplus.png" alt="Google Plus">
+						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/youtube.png" alt="Youtube">
+						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/twitter.png" alt="Twitter">
+						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/pinterest.png" alt="Pinterest">
+						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/linkedin.png" alt="Linkedin">
+						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/instagram.png" alt="Instagram">
+					</div>
+					
+				</div>
+				<div class="col-md-8">
+					<div class="col-md-4">
+						<span class="footertitle">GET IN TOUCH:</span>
+						<div class="footertext">
+							<div class="izq"><img class="borde" src="<?php echo get_template_directory_uri(); ?>/images/direccion.png"></div>
+							<div class="der">Calle Cañada 15.<br> Paracuellos de Jarama, Madrid</div>
+							
+						</div>
+					</div>
+					<div class="col-md-4 container-telefono">
+						<div class="footertext">
+							<div class="izq"><img class="borde" src="<?php echo get_template_directory_uri(); ?>/images/telefono.png"></div>
+							<div class="der telefono">+34 91 658 4245</div>
+							
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footertextblue">click here to see all our global offices</div>
+						<div class="footertext">
+							<div class="izq"><img class="borde" src="<?php echo get_template_directory_uri(); ?>/images/correo.png"></div>
+							<div class="der telefono">info@dreamglassgroup.com</div>
+							
+						</div>
+					</div>
+				</div>
+		
 			</div>
 		</div>
 			
