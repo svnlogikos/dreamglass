@@ -115,6 +115,8 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 }
 .social-icons{
 	margin-right: 2px;
+	width: 42px;
+    height: auto;
 }
 .direccion{
 	list-style-image: url(../images/direccion.png);
