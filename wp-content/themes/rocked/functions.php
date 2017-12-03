@@ -195,6 +195,8 @@ add_action( 'wp_enqueue_scripts', 'rocked_scripts' );
  */
 function rocked_enqueue_bootstrap() {
 	wp_enqueue_style( 'rocked-bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.min.css', array(), true );
+	wp_enqueue_script( 'rocked-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'),'', true );
+	
 }
 add_action( 'wp_enqueue_scripts', 'rocked_enqueue_bootstrap', 9 );
 

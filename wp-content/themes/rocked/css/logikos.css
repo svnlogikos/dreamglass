@@ -62,6 +62,21 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 
 
 /*CUSTOM CSS LOGIKOS*/
+.main-content{
+	padding: 0px !important;
+}
+.links-footer{
+	color: #ffffff !important;
+}
+.links-footer:hover, .links-footer:active{
+	color: #2e7eaf !important;
+}
+.mobile_divider{ display: none; }
+#accordions-9{ display: none; }
+.fondo_app_mobile2{
+		display: none;
+	}
+
 .site-footer{
 	background-color: #111111 !important;
 	}
@@ -115,8 +130,6 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 }
 .social-icons{
 	margin-right: 2px;
-	width: 42px;
-    height: auto;
 }
 .direccion{
 	list-style-image: url(../images/direccion.png);
@@ -152,4 +165,123 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 	font-size: 1.2rem;
 	margin-bottom: 26px;
 	font-weight: 600;
+}
+.app{
+	position: relative;
+	background-image: url(../images/app-fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    height: 635px;
+
+}
+.app_tittle{
+	font-family: Montserrat-Bold;
+	color: #000;
+    font-size: 2.5rem;
+}
+.app_text_color{
+	color: #666;
+	font-size: 1.5rem;
+}
+.app_text{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,-50%);
+}
+/*MEDIAS QUERIES*/
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	.footertextblue{display: none;}
+	.container-telefono{ margin-top: 0px !important; }
+	.container-social-icons{ text-align: center; margin-bottom: 10px; }
+	.prefooter{ background-color: #3b3b3b; }
+	.mobile_margen{ margin-left: 12px; }
+	.social-icons{ width: 42px; }
+	.footertext{ margin-top: 10px; }
+	.mobile_divider{ display: block; }
+	#accordions-9{ display: block; }
+	#footer_menu_desktop{ display: none; }
+	.prefooter-content{ margin-top: 0px !important; }
+	.site-info{ font-size: 1.2rem; }
+	.app_text{
+		top: 0;
+		left: 0;
+		transform: translate(0%,0%);
+	}
+	.app_tittle{
+		font-size: 1.5rem;
+	}
+	.app{
+		text-align: center;
+		position: relative;
+		background-image: url(../images/fondo_app_mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	    height: auto;
+	    padding-top: 50px;
+	    background: rgba(255,255,255,1);
+		background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+	}
+	.fondo_app_mobile2{
+		display: block;
+	}
+	.img-responsive img{
+		width: 40%;
+	}
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1824px) and (orientation : portrait){
+	.footertextblue{display: none;}
+	.container-telefono{ margin-top: 0px !important; }
+	.container-social-icons{ text-align: center; margin-bottom: 10px; }
+	.prefooter{ background-color: #3b3b3b; }
+	.mobile_margen{ margin-left: 12px; }
+	.social-icons{ width: 42px; }
+	.footertext{ margin-top: 10px; }
+	.mobile_divider{ display: block; }
+	#accordions-9{ display: block; }
+	#footer_menu_desktop{ display: none; }
+	.prefooter-content{ margin-top: 0px !important; }
+	.site-info{ font-size: 1.2rem; }
+	.app_text{
+		top: 0;
+		left: 0;
+		transform: translate(0%,0%);
+	}
+	.app_tittle{
+		font-size: 1.5rem;
+	}
+	.app{
+		text-align: center;
+		position: relative;
+		background-image: url(../images/fondo_app_mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	    height: auto;
+	    padding-top: 50px;
+	    background: rgba(255,255,255,1);
+		background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+	}
+	.fondo_app_mobile2{
+		display: block;
+	}
+	.img-responsive img{
+		width: 40%;
+	}
 }
