@@ -25,7 +25,7 @@ define('DB_USER', 'logikosc_userdream');
 define('DB_PASSWORD', '@logikos2017');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
-define('DB_HOST', 'logikos.com.ar');
+define('DB_HOST', '158.69.136.221');
 
 /** Codificación de caracteres para la base de datos. */
 define('DB_CHARSET', 'utf8');

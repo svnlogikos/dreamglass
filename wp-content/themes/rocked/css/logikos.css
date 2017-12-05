@@ -190,6 +190,28 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
     left: 50%;
     transform: translate(-100%,-50%);
 }
+.panel-row-style-for-w5a25fbe26e514-0{
+	padding: 0px !important;
+}
+.widget-title{
+	margin-bottom: 20px !important;
+	font-family: Brooklyn-Spanish-Light;
+}
+.widget-title:after{
+	content: none !important;
+}
+.textwidget{
+	font-family: Montserrat-Light;
+	text-align: center;
+}
+#btn_contactus{
+	border: 1px solid #636363;
+}
+.panel-row-style{
+	padding: 50px 0px !important;
+}
+
+
 /*MEDIAS QUERIES*/
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
