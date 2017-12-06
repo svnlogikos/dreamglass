@@ -284,7 +284,7 @@ function rocked_header_text() {
 		echo '<div class="header-text">' . wp_kses_post($header_text) . '</div>';
 		}
 		if ($button_text) {
-		echo '<a href="' . esc_url($button_url) . '" class="roll-button">' . esc_html($button_text) . '</a>';
+		echo '<a href="' . esc_url($button_url) . '" class="roll-button blue">' . esc_html($button_text) . '</a>';
 		}
 	echo '</div>';	
 }

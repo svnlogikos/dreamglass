@@ -59,7 +59,17 @@ font-family: Montserrat-UltraLight;
 src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 }
 
+/* mobile < 768*/
+@import "./small.css";   
 
+/* desktop > 768 < 1024 */
+/* @import "./medium.css"; */
+
+/* desktop > 1025 */
+/* @import "./large.css"; */
+
+
+/* desktop > 768/1024 */   
 
 /*CUSTOM CSS LOGIKOS*/
 .site-footer{

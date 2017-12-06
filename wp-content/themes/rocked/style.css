@@ -362,7 +362,9 @@ table > tfoot > tr > td {
 /* Header
 -------------------------------------------------------------- */
 .header {
-	background-color: #fff;
+	position:absolute;
+	z-index: 1;
+	background-color:transparent !important; 
 }
 .header .logo {
 	float: left;
@@ -620,7 +622,7 @@ table > tfoot > tr > td {
 	display: none;
 	float: right;
 	font-size: 28px;
-	color: #000;
+	color: #FFF;s
 	text-align:center;
 	width: 24px;
 	height: 20px;
@@ -1148,7 +1150,7 @@ a.comment-reply-link:hover {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-.roll-button.blue { background-color: #21c0f6; }
+.roll-button.blue { background-color: #00aeef; }
 .roll-button.green { background-color: #81b43f; }
 .roll-button.red { background-color: #ee584d; }
 .roll-button.turquoise { background-color: #1bba99; }
@@ -2448,6 +2450,7 @@ img {
 }
 .site-logo {
 	max-height: 80px;
+	margin:10px;
 }
 .site-branding {
 	padding: 15px 0;
@@ -2505,7 +2508,6 @@ img {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #000;
 	opacity: 0.8;
 }
 .header-info {
@@ -2515,6 +2517,7 @@ img {
 	width: 80%;
 	left: 10%;
 	text-align: center;
+	margin-top:70px;
 }
 .header-title {
 	color: #fff;
@@ -2522,14 +2525,14 @@ img {
 	font-weight: 700;
 }
 .header-text::before {
-	content: '';
+	/* content: '';
 	position: absolute;
 	width: 120px;
 	background-color: #ffa800;
 	height: 2px;
 	top: 0;
 	left: 50%;
-	margin-left: -60px;
+	margin-left: -60px; */
 }
 .header-text {
 	margin: 20px auto 0;
@@ -2538,6 +2541,7 @@ img {
 	width: 80%;
 	color: #cfcfcf;
 	position: relative;
+	text-transform: uppercase;
 }
 .header-info .roll-button {
 	margin-top: 40px;
@@ -2773,15 +2777,15 @@ img {
 	}
 	.site-branding {
 		text-align: center;
+		width: 40%;
 	}
-	.site-branding,
 	.menu-wrapper {
-		width: 100%;
+		width: 60%;
 	}
 	.btn-menu {
 		height: auto;
-		float: none;
-		margin: 0 auto 10px;
+		float: right;
+		margin: 15px 0px 0px 10px;
 	}
 	.roll-clients .client-item {
 		width: 50%;
