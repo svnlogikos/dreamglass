@@ -36,6 +36,13 @@
 					</div><!-- /.col-md-2 -->
 					<div class="menu-wrapper col-md-9 col-sm-9 col-xs-9">
 						<div class="btn-menu"><i class="fa fa-bars"></i></div>
+						<ul class="pre-mainnav">
+							<li>call us:  +34 91 658 4245</li>
+							<li>|</li>
+							<li>language: eng <i class="fa fa-angle-down"></i></li>
+							<li>|</li>
+							<li><i class="fa fa-search"></i></li>
+						</ul>
 						<nav id="mainnav" class="mainnav">
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 						</nav><!-- #site-navigation -->
