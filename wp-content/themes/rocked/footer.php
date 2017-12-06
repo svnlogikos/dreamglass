@@ -15,72 +15,72 @@
 	<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
 		<?php get_sidebar('footer'); ?>
 	<?php endif; ?>
+	
 	<div class="prefooter">
 		<div class="container">
 			<div class="row prefooter-content">
-				<div class="col-md-8">
+				<div id="footer_menu_desktop" class="col-md-8">
 					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">HOME</li>
-							<li>Blog & News</li>
-							<li>Contact Us</li>
-							<li>Get a Quote</li>
+							<a class="links-footer" href="#"><li>Blog & News</li></a>
+							<a class="links-footer" href="#"><li>Contact Us</li></a>
+							<a class="links-footer" href="#"><li>Get a Quote</li></a>
 						</ul>
 						<br>
 						<ul class="footer-ul">
 							<li class="footer-ul-title">RESOURCES</li>
-							<li>Images & Videos</li>
-							<li>Technology</li>
-							<li>How it Works</li>
-							<li>Glass Types</li>
+							<a class="links-footer" href="#"><li>Images & Videos</li></a>
+							<a class="links-footer" href="#"><li>Technology</li></a>
+							<a class="links-footer" href="#"><li>How it Works</li></a>
+							<a class="links-footer" href="#"><li>Glass Types</li></a>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">PRODUCTS</li>
-							<li>Original</li>
-							<li>Smart Blinds</li>
-							<li>IR Shield</li>
-							<li>Dynamic Shutter</li>
-							<li>Original</li>
-							<li>Matrix</li>
-							<li>DSAF</li>
+							<a class="links-footer" href="#"><li>Original</li></a>
+							<a class="links-footer" href="#"><li>Smart Blinds</li></a>
+							<a class="links-footer" href="#"><li>IR Shield</li></a>
+							<a class="links-footer" href="#"><li>Dynamic Shutter</li></a>
+							<a class="links-footer" href="#"><li>Original</li></a>
+							<a class="links-footer" href="#"><li>Matrix</li></a>
+							<a class="links-footer" href="#"><li>DSAF</li></a>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">SECTORS</li>
-							<li>Commercial</li>
-							<li>Residential</li>
-							<li>Hotel</li>
-							<li>Healthcare</li>
-							<li>Education</li>
-							<li>Transportation</li>
-							<li>Retail</li>
-							<li>Entertaiment</li>
+							<a class="links-footer" href="#"><li>Commercial</li></a>
+							<a class="links-footer" href="#"><li>Residential</li></a>
+							<a class="links-footer" href="#"><li>Hotel</li></a>
+							<a class="links-footer" href="#"><li>Healthcare</li></a>
+							<a class="links-footer" href="#"><li>Education</li></a>
+							<a class="links-footer" href="#"><li>Transportation</li></a>
+							<a class="links-footer" href="#"><li>Retail</li></a>
+							<a class="links-footer" href="#"><li>Entertaiment</li></a>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<ul class="footer-ul">
 							<li class="footer-ul-title">ABOUT US</li>
-							<li>Lab Technology</li>
-							<li>Company</li>
-							<li>Certifications</li>
-							<li>Events</li>
-							<li>FAQ</li>
-							<li>Our Warranties</li>
-							<li>Career</li>
-							<li>Our Clients</li>
+							<a class="links-footer" href="#"><li>Lab Technology</li></a>
+							<a class="links-footer" href="#"><li>Company</li></a>
+							<a class="links-footer" href="#"><li>Certifications</li></a>
+							<a class="links-footer" href="#"><li>Events</li></a>
+							<a class="links-footer" href="#"><li>FAQ</li></a>
+							<a class="links-footer" href="#"><li>Our Warranties</li></a>
+							<a class="links-footer" href="#"><li>Career</li></a>
+							<a class="links-footer" href="#"><li>Our Clients</li></a>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="container-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/image-footer.png" alt="">
-					</div>
+				<div class="col-md-4 container-img">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/image-footer.png" alt="">
+					
 					
 				</div>
-		
+				<?php get_template_part( 'template-parts/content', 'menu-mobile' ); ?>
 			</div>
 		</div>
 		<div class="container">
@@ -91,8 +91,8 @@
 		<div class="container">
 			<div class="row">
 		
-				<div class="col-md-4">
-					<span class="footertitle">CONNECT WITH DREAMGLASS:</span>
+				<div class="col-xs-12 col-md-4">
+					<span class="footertitle mobile_margen">CONNECT WITH DREAMGLASS:</span>
 					<div class="container-social-icons">
 						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/facebook.png" alt="Facebook">
 						<img class="social-icons" src="<?php echo get_template_directory_uri(); ?>/images/social/googleplus.png" alt="Google Plus">
@@ -104,8 +104,13 @@
 					</div>
 					
 				</div>
-				<div class="col-md-8">
-					<div class="col-md-4">
+				<div class="container mobile_divider">
+					<div class="row divider-footer">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/divider.png" alt="">
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<div class="col-xs-12 col-md-4">
 						<span class="footertitle">GET IN TOUCH:</span>
 						<div class="footertext">
 							<div class="izq"><img class="borde" src="<?php echo get_template_directory_uri(); ?>/images/direccion.png"></div>
@@ -113,15 +118,15 @@
 							
 						</div>
 					</div>
-					<div class="col-md-4 container-telefono">
+					<div class="col-xs-12 col-md-4 container-telefono">
 						<div class="footertext">
 							<div class="izq"><img class="borde" src="<?php echo get_template_directory_uri(); ?>/images/telefono.png"></div>
 							<div class="der telefono">+34 91 658 4245</div>
 							
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="footertextblue">click here to see all our global offices</div>
+					<div class="col-xs-12 col-md-4">
+						<div class="footertextblue"><a class="footertextblue" href="">click here to see all our global offices</a></div>
 						<div class="footertext">
 							<div class="izq"><img class="borde" src="<?php echo get_template_directory_uri(); ?>/images/correo.png"></div>
 							<div class="der telefono">info@dreamglassgroup.com</div>
@@ -148,6 +153,5 @@
 </a>
 
 <?php wp_footer(); ?>
-
 </body>
 </html>

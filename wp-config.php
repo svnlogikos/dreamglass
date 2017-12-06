@@ -19,13 +19,17 @@
 define('DB_NAME', 'logikosc_dreamglass');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'logikosc_userdream');
+// Usuario y pass de BD en logikos.com.ar
+//define('DB_USER', 'logikosc_userdream'); 
+//define('DB_PASSWORD', '@logikos2017');
 
-/** Tu contraseña de MySQL */
-define('DB_PASSWORD', '@logikos2017');
-
+define('DB_USER', 'root'); 
+define('DB_PASSWORD', '');
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
-define('DB_HOST', 'logikos.com.ar');
+//Host logikos.com.ar
+//define('DB_HOST', '158.69.136.221');
+
+define('DB_HOST', 'localhost');
 
 /** Codificación de caracteres para la base de datos. */
 define('DB_CHARSET', 'utf8');
@@ -69,7 +73,7 @@ $table_prefix  = 'wp_';
  * Se recomienda encarecidamente a los desarrolladores de temas y plugins que usen WP_DEBUG
  * en sus entornos de desarrollo.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 
