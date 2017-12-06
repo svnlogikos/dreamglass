@@ -156,6 +156,7 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 }
 .container-telefono{
 	margin-top: 23px;
+	padding-left: 50px;
 }
 .telefono{
 	padding-top: 10px;
@@ -200,16 +201,42 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 .widget-title:after{
 	content: none !important;
 }
-.textwidget{
+/*.textwidget{
 	font-family: Montserrat-Light;
 	text-align: center;
-}
+}*/
 #btn_contactus{
 	border: 1px solid #636363;
 }
 #btn_readmorenews a{
 	border: 1px solid #636363;
 	padding: 15px;
+}
+#box-text1 .widget-title{
+	text-align: left !important;
+	color: #fff;
+}
+#box-text2 .widget-title{
+	text-align: left !important;
+	color: #000;
+}
+#box-text3 .widget-title{
+	text-align: left !important;
+	color: #010101;
+}
+#btn_learmore{
+	background-color: rgb(172, 172, 172);
+	border: 1px solid #fff;
+	}
+#btn_AboutourLaB{
+	color: #000000;
+	opacity: 0.7;
+	border: 1px solid #363636;
+}
+#btn_readmore{
+	border: 1px solid #363636;
+	float: left;
+	margin-left: 4%;
 }
 
 
@@ -218,7 +245,7 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
 	.footertextblue{display: none;}
-	.container-telefono{ margin-top: 0px !important; }
+	.container-telefono{ margin-top: 0px !important; margin-left: 15px !important; padding-left: 0px !important;}
 	.container-social-icons{ text-align: center; margin-bottom: 10px; }
 	.prefooter{ background-color: #3b3b3b; }
 	.mobile_margen{ margin-left: 12px; }
@@ -261,11 +288,24 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 	.img-responsive img{
 		width: 40%;
 	}
+	#btn_readmore{
+		float: none;
+		margin-left: 0;
+	}
+	#box-text3 .widget-title {
+    text-align: center !important;
+	}
+	#box-text2 .widget-title {
+    text-align: center !important;
+	}
+	#box-text1 .widget-title {
+    text-align: center !important;
+	}
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1824px) and (orientation : portrait){
 	.footertextblue{display: none;}
-	.container-telefono{ margin-top: 0px !important; }
+	.container-telefono{ margin-top: 0px !important; margin-left: 15px !important; padding-left: 0px !important;}
 	.container-social-icons{ text-align: center; margin-bottom: 10px; }
 	.prefooter{ background-color: #3b3b3b; }
 	.mobile_margen{ margin-left: 12px; }
@@ -307,5 +347,18 @@ src: url(../fonts/dreamglass/Montserrat-UltraLight.otf);
 	}
 	.img-responsive img{
 		width: 40%;
+	}
+	#btn_readmore{
+		float: none;
+		margin-left: 0;
+	}
+	#box-text3 .widget-title {
+    text-align: center !important;
+	}
+	#box-text2 .widget-title {
+    text-align: center !important;
+	}
+	#box-text1 .widget-title {
+    text-align: center !important;
 	}
 }
